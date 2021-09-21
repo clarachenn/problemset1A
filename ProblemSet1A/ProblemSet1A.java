@@ -17,12 +17,12 @@ class ProblemSet1A {
 //-------------------------------------------------------------------------------------------------------------------
     
     //Slope Formula:
-    double x1 = 0; //first x point
-    double x2 = 2; //second x point
-    double y1 = 0; //first y point
-    double y2 = 3; //second y point
+    double x1 = 0; //first x value
+    double x2 = 2; //second x value
+    double y1 = 0; //first y value
+    double y2 = 3; //second y value
     
-    double m = (y2 - y1)/(x2 - x1); //finds the slope for the points
+    double m = (y2 - y1)/(x2 - x1); //finds the slope for the x and y values
     
 //-------------------------------------------------------------------------------------------------------------------
    
@@ -33,19 +33,19 @@ class ProblemSet1A {
 //-------------------------------------------------------------------------------------------------------------------
 
     //Sum of arithmetic series:
-    double a1 = 1.0; //first term
-    double k = 5; //number of terms
+    double a1 = 1.0; //first term of the series
+    double k = 5; //number of terms in the series
     double difference = 1; //the difference between each number
-    double ak = a1 + (k - 1) * difference; //last term
+    double ak = a1 + (k - 1) * difference; //last term of the series
     
     double sum = k/2 * (a1 + ak); //finds the sum of the arithmetic series
      
 //-------------------------------------------------------------------------------------------------------------------
 
     //Sum of geometric series:
-    double g1 = 3.0; //first term
-    double kTerms = 3; //number of terms
-    double rate = 2.0; //rate
+    double g1 = 3.0; //first term of the series
+    double kTerms = 3; //number of terms in the series
+    double rate = 2.0; //rate of increase between terms
     double geoSum = g1 * ((1 - Math.pow(rate, kTerms)) / (1 - rate)); //finds the sum of the geometric series
     
 //-------------------------------------------------------------------------------------------------------------------
@@ -54,21 +54,21 @@ class ProblemSet1A {
 System.out.println("QUADRATIC FORMULA"); //prints "QUADRATIC FORMULA"
 System.out.println("The Solutions for " + (int)a + "x^2 + " + (int)b + "x + " + (int)c + " are " + firstX + " and " + secondX + "."); //prints the answer for the quadratic formula question
 
-System.out.println();
+System.out.println(); //skips a line
 
 
 //SLOPE FORMULA
 System.out.println("SLOPE FORMULA"); //prints "SLOPE FORMULA"
 System.out.println("A line connecting the points (" + (int)x1 + ", " + (int)y1 + ") " + "and (" + (int)x2 + ", " + (int)y2 + ") has a slope of " + m) ; //prints the answer for the slope question
 
-System.out.println();
+System.out.println(); //skips a line
 
 
 //MIDPOINT FORMULA
 System.out.println("MIDPOINT FORMULA"); //prints "MIDPOINT FORMULA"
 System.out.println("The midpoint between (" + (int)x1 + ", " + (int)y1 + ") " + "and (" + (int)x2 + ", " + (int)y2 + ") is (" + M1 + ", " + M2 + ")"); //prints the answer for the midpoint question
  
-System.out.println();
+System.out.println(); //skips a line
 
 
 //SUM OF ARITHMETIC SEIRES
@@ -76,7 +76,7 @@ System.out.println("SUM OF AN ARITHMETIC SERIES"); //prints "SUM OF AN ARITHMETI
 System.out.println("The sum of the first " + (int)k + " terms of an arithmetic series that starts with " + a1); //prints the answer to the arithmetic series question
 System.out.println("and increases by " + difference + " is " + sum);
 
-System.out.println();
+System.out.println(); //skips a line
 
 
 //SUM OF GEOMETRIC SERIES
