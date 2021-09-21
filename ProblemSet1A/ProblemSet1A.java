@@ -66,12 +66,13 @@ System.out.println("The midpoint between (" + (int)x1 + ", " + (int)y1 + ") " + 
 System.out.println();
 
 System.out.println("SUM OF AN ARITHMETIC SERIES"); //prints "SUM OF AN ARITHMETIC SERIES"
-System.out.println("The sum of the first " + (int)k + " terms of an arithmetic series that starts with " + a1 + " and increases by " + difference + " is " + sum); //prints the answer to the arithmetic series question
+System.out.println("The sum of the first " + (int)k + " terms of an arithmetic series that starts with " + a1); //prints the answer to the arithmetic series question
+System.out.println("and increases by " + difference + " is " + sum);
 
 System.out.println();
 
 System.out.println("SUM OF A FINITE GEOMETRIC SERIES"); //prints "SUM OF A FINITE GEOMETRIC SERIES"
-System.out.println("The sum of the first " + kTerms + " terms of a finite geometric series that starts with " + g1 + " and increases by a rate of " + r + " is " + gSum); //prints the answer to the geometric series question
-
+System.out.println("The sum of the first " + (int)kTerms + " terms of a finite geometric series that starts with " + g1); //prints the answer to the geometric series question
+System.out.println("and increases by a rate of " + r + " is " + gSum);
     }
 }
