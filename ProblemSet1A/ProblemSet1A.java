@@ -42,7 +42,7 @@ class ProblemSet1A {
      
 //-------------------------------------------------------------------------------------------------------------------
 
-    //Sum of geometric series
+    //Sum of geometric series:
     double g1 = 3.0; //first term
     double kTerms = 3; //number of terms
     double rate = 2.0; //rate
@@ -50,29 +50,39 @@ class ProblemSet1A {
     
 //-------------------------------------------------------------------------------------------------------------------
 
+//QUADRATIC FORMULA
 System.out.println("QUADRATIC FORMULA"); //prints "QUADRATIC FORMULA"
 System.out.println("The Solutions for " + (int)a + "x^2 + " + (int)b + "x + " + (int)c + " are " + firstX + " and " + secondX + "."); //prints the answer for the quadratic formula question
 
 System.out.println();
 
+
+//SLOPE FORMULA
 System.out.println("SLOPE FORMULA"); //prints "SLOPE FORMULA"
 System.out.println("A line connecting the points (" + (int)x1 + ", " + (int)y1 + ") " + "and (" + (int)x2 + ", " + (int)y2 + ") has a slope of " + m) ; //prints the answer for the slope question
 
 System.out.println();
 
+
+//MIDPOINT FORMULA
 System.out.println("MIDPOINT FORMULA"); //prints "MIDPOINT FORMULA"
 System.out.println("The midpoint between (" + (int)x1 + ", " + (int)y1 + ") " + "and (" + (int)x2 + ", " + (int)y2 + ") is (" + M1 + ", " + M2 + ")"); //prints the answer for the midpoint question
  
 System.out.println();
 
+
+//SUM OF ARITHMETIC SEIRES
 System.out.println("SUM OF AN ARITHMETIC SERIES"); //prints "SUM OF AN ARITHMETIC SERIES"
 System.out.println("The sum of the first " + (int)k + " terms of an arithmetic series that starts with " + a1); //prints the answer to the arithmetic series question
 System.out.println("and increases by " + difference + " is " + sum);
 
 System.out.println();
 
+
+//SUM OF GEOMETRIC SERIES
 System.out.println("SUM OF A FINITE GEOMETRIC SERIES"); //prints "SUM OF A FINITE GEOMETRIC SERIES"
 System.out.println("The sum of the first " + (int)kTerms + " terms of a finite geometric series that starts with " + g1); //prints the answer to the geometric series question
 System.out.println("and increases by a rate of " + rate + " is " + geoSum);
+
     }
 }
