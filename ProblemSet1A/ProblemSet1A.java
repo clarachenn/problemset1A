@@ -43,10 +43,10 @@ class ProblemSet1A {
 //-------------------------------------------------------------------------------------------------------------------
 
     //Sum of geometric series
-    double g1 = 3.0;
-    double kTerms = 3;
-    double r = 2.0;
-    double gSum = g1 * ((1 - Math.pow(r, kTerms)) / (1 - r));
+    double g1 = 3.0; //first term
+    double kTerms = 3; //number of terms
+    double rate = 2.0; //rate
+    double geoSum = g1 * ((1 - Math.pow(rate, kTerms)) / (1 - rate)); //finds the sum of the geometric series
     
 //-------------------------------------------------------------------------------------------------------------------
 
@@ -73,6 +73,6 @@ System.out.println();
 
 System.out.println("SUM OF A FINITE GEOMETRIC SERIES"); //prints "SUM OF A FINITE GEOMETRIC SERIES"
 System.out.println("The sum of the first " + (int)kTerms + " terms of a finite geometric series that starts with " + g1); //prints the answer to the geometric series question
-System.out.println("and increases by a rate of " + r + " is " + gSum);
+System.out.println("and increases by a rate of " + rate + " is " + geoSum);
     }
 }
